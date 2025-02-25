@@ -1,0 +1,8 @@
+# REPOSITORIO DO ALUNO: GUILHERME QUEIROZ DE OLIVEIRA SANTOS 
+# DS SENAI 
+
+# html
+
+# css
+
+# javascript 
