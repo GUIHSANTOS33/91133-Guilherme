@@ -1,0 +1,45 @@
+/* 1. Definindo a fonte e o fundo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte legível */
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    margin: 0; padding: 20px; /* Espaçamento ao redor da página */
+  }
+  
+  /* 2. Estilo para títulos principais */
+  h1 {
+    color: #333; /* Cor do título */
+    text-align: center; /* Centraliza o título */
+  }
+  
+  /* 3. Estilo para os formulários */
+  form {
+    background-color: #fff; /* Fundo branco para o formulário */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* 4. Estilo para campos de entrada */
+  input, textarea {
+    width: 100%; /* Preenche toda a largura */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Espaçamento inferior */
+    border: 1px solid #ccc; /* Borda clara */
+    border-radius: 5px; /* Bordas arredondadas */
+  }
+  
+  /* 5. Estilo para o botão */
+  button {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+  }
+  
+  /* 6. Mudando a cor do botão ao passar o mouse */
+  button:hover {
+    background-color: #45a049; /* Cor do botão ao passar o mouse */
+  }
+  

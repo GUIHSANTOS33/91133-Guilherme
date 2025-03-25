@@ -1,0 +1,33 @@
+body{
+     
+    display: flex;
+    height: center;
+    width: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+.conteiner{
+
+    border: 2px solid red;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.intem{ 
+
+    border: 2px solid green;
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    display: flex;
+
+
+
+}
