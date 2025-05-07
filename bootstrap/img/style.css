@@ -1,0 +1,154 @@
+.navbar-brand {
+    color: rgb(49, 77, 77);
+    font-weight: bold;
+}
+.session{
+    margin: 30px 0;
+    padding: 10px 0;
+}
+
+p{
+    text-align: justify;
+}
+
+/* Estilo para o título acima do carrossel */
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    color: #2c3e50; /* Azul escuro */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra no texto */
+    margin-bottom: 30px;
+}
+
+/* Personalização do carrossel */
+.carousel-inner img {
+    max-height: 400px; /* Define a altura máxima das imagens */
+    object-fit: cover; /* Ajusta a imagem para preencher o espaço sem distorção */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: block; /* Garante que o elemento seja tratado como um bloco */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao redor das imagens */
+}
+
+/* Indicadores do carrossel */
+.carousel-indicators button {
+    background-color: #232f3b; /* Cor dos indicadores */
+    border: none;
+}
+
+.carousel-indicators .active {
+    background-color: #2b1816; /* Cor do indicador ativo */
+}
+
+/* Botões de navegação do carrossel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%); /* Deixa os ícones brancos */
+}
+
+.carousel-caption h5 {
+    font-size: 1.8rem; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: #000000; /* Define a cor preta */
+    text-shadow: none; /* Remove a sombra do texto */
+    text-transform: uppercase; /* Deixa o texto em letras maiúsculas */
+}
+
+/* Fundo da página */
+body {
+    background-color: #020202; /* Cinza claro */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0f151b; /* Azul escuro */
+}
+
+.navbar-brand {
+    color: #000000; /* Branco */
+}
+
+.navbar-nav .nav-link {
+    color: #061418; /* Branco */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #131111; /* preto */
+}
+
+.carousel-inner img {
+    max-height: 400px; /* Define a altura máxima das imagens */
+    object-fit: cover; /* Ajusta a imagem para preencher o espaço sem distorção */
+    margin-top: 20px; /* Adiciona espaçamento acima */
+    margin-bottom: 20px; /* Adiciona espaçamento abaixo */
+    display: block; /* Garante que o elemento seja tratado como um bloco */
+    border: none; /* Remove qualquer borda ao redor das imagens */
+    padding: 0; /* Remove qualquer padding */
+}
+
+/* Estilo para o título acima do carrossel */
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    color: #07090c; /* Azul escuro */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra no texto */
+    margin-bottom: 30px;
+}
+
+/* Personalização do carrossel */
+.carousel-inner img {
+    max-height: 400px; /* Define a altura máxima das imagens */
+    object-fit: cover; /* Ajusta a imagem para preencher o espaço sem distorção */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: block; /* Garante que o elemento seja tratado como um bloco */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao redor das imagens */
+}
+
+/* Indicadores do carrossel */
+.carousel-indicators button {
+    background-color: #0e0f0f; /* Cor dos indicadores */
+    border: none;
+}
+
+.carousel-indicators .active {
+    background-color: #210be9; /* Cor do indicador ativo */
+}
+
+/* Botões de navegação do carrossel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%); /* Deixa os ícones brancos */
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f2f2f7; /* Texto branco */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra no texto */
+}
+
+/* Fundo da página */
+body {
+    background-color: #a8d3dd; /* Cinza claro */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #34495e; /* Azul escuro */
+}
+
+.navbar-brand {
+    color: #171c1d; /* Branco */
+}
+
+.navbar-nav .nav-link {
+    color: #0b181b; /* Branco */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e74c3c; /* Vermelho */
+}
+
