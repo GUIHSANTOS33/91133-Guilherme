@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="/src/styles.css" rel="stylesheet">
+  <title>Contato</title>
+  <style>
+    /* Animação de fade-in */
+    .fade-in {
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans fade-in">
+
+  <header class="bg-gradient-to-r from-blue-800 to-blue-600 p-6 shadow-lg mb-8">
+    <nav class="container mx-auto flex justify-center">
+      <ul class="flex space-x-6">
+        <li><a href="INDEX.HTML" class="hover:text-blue-300 font-semibold">Home</a></li>
+        <li><a href="sobre.html" class="hover:text-blue-300 font-semibold">Sobre Nós</a></li>
+        <li><a href="contato.html" class="hover:text-blue-300 font-semibold">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container mx-auto py-8">
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4 text-center text-blue-400">Entre em Contato</h2>
+      <form class="bg-gray-800 p-6 rounded-lg shadow-lg space-y-4">
+        <div class="mb-4">
+          <label class="block mb-2">Nome:</label>
+          <input type="text" class="w-full p-3 bg-gray-700 rounded-lg transition duration-300 hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Seu nome">
+        </div>
+        <div class="mb-4">
+          <label class="block mb-2">E-mail:</label>
+          <input type="email" class="w-full p-3 bg-gray-700 rounded-lg transition duration-300 hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Seu e-mail">
+        </div>
+        <div class="mb-4">
+          <label class="block mb-2">Mensagem:</label>
+          <textarea class="w-full p-3 bg-gray-700 rounded-lg transition duration-300 hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Sua mensagem"></textarea>
+        </div>
+        <button class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg transition duration-300 transform hover:scale-105">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="bg-gradient-to-r from-blue-800 to-blue-600 p-6 mt-12">
+    <div class="container mx-auto text-center">
+      <p class="text-gray-300">© 2025 - Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

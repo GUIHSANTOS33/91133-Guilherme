@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="/src/styles.css" rel="stylesheet">
+  <title>Site Organizado</title>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+
+  <header class="bg-gradient-to-r from-blue-800 to-blue-600 p-6 shadow-lg mb-8">
+    <nav class="container mx-auto flex justify-center">
+      <ul class="flex space-x-6">
+        <li><a href="INDEX.HTML" class="hover:text-blue-300 font-semibold">Home</a></li>
+        <li><a href="sobre.html" class="hover:text-blue-300 font-semibold">Sobre Nós</a></li>
+        <li><a href="contato.html" class="hover:text-blue-300 font-semibold">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container mx-auto py-8">
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4 text-center text-blue-400">Nossa História</h2>
+      <p class="text-lg text-center">Fundada em 2020, nossa empresa nasceu da união de três amigos apaixonados por tecnologia. Com o objetivo de criar soluções inovadoras, transformamos desafios em oportunidades, sempre priorizando a qualidade e a satisfação dos nossos parceiros.</p>
+    </section>
+
+    <!-- Nova Seção -->
+    <section class="mb-12 bg-blue-600 p-8 rounded-lg shadow-lg text-center animate-bounce">
+      <h2 class="text-2xl font-bold text-gray-100">Estamos Expandindo!</h2>
+      <p class="text-lg text-gray-300 mb-4">Estamos sempre em busca de novos talentos para se juntar à nossa equipe. Se você é apaixonado por tecnologia e inovação, envie seu currículo para nós!</p>
+      <a href="contato.html" class="bg-blue-800 hover:bg-blue-900 text-white px-6 py-3 rounded-lg font-semibold">Envie seu Currículo</a>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4 text-center text-blue-400">Nossos Negócios</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+          <img src="/i2.png" alt="Loja Virtual" class="w-full h-40 object-cover rounded-lg mb-4">
+          <p class="text-center">Loja Virtual Personalizada</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+          <img src="/i3.jpg" alt="Delivery App" class="w-full h-40 object-cover rounded-lg mb-4">
+          <p class="text-center">Aplicativo de Delivery</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+          <img src="/i4.jpg" alt="Website Institucional" class="w-full h-40 object-cover rounded-lg mb-4">
+          <p class="text-center">Website Institucional</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-12 animate-pulse">
+      <h2 class="text-2xl font-bold mb-4 text-center text-blue-400">Parcerias</h2>
+      <table class="w-full bg-gray-800 rounded-lg overflow-hidden">
+        <thead>
+          <tr class="bg-gray-700">
+            <th class="p-4 text-center">Parceiro</th>
+            <th class="p-4 text-center">Descrição</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="p-4 text-center hover:bg-blue-700 transition duration-300">WebWorks</td>
+            <td class="p-4 text-center">Desenvolvimento de sites e aplicativos</td>
+          </tr>
+          <tr>
+            <td class="p-4 text-center hover:bg-blue-700 transition duration-300">DesignPro</td>
+            <td class="p-4 text-center">Agência de design gráfico e branding</td>
+          </tr>
+          <tr>
+            <td class="p-4 text-center hover:bg-blue-700 transition duration-300">MarketBoost</td>
+            <td class="p-4 text-center">Consultoria em marketing digital</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="bg-gradient-to-r from-blue-800 to-blue-600 p-6 mt-12">
+    <div class="container mx-auto text-center">
+      <p class="text-gray-300">© 2025 - Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="/src/styles.css" rel="stylesheet">
+  <title>Site Organizado</title>
+  <style>
+    /* Animação de fade-in */
+    .fade-in {
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans fade-in">
+
+  <header class="bg-gradient-to-r from-blue-800 to-blue-600 p-6 shadow-lg mb-8">
+    <nav class="container mx-auto flex justify-center">
+      <ul class="flex space-x-6">
+        <li><a href="INDEX.HTML" class="hover:text-blue-300 font-semibold">Home</a></li>
+        <li><a href="sobre.html" class="hover:text-blue-300 font-semibold">Sobre Nós</a></li>
+        <li><a href="contato.html" class="hover:text-blue-300 font-semibold">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container mx-auto py-8">
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-4 text-center text-blue-400">Nossa História</h2>
+      <p class="text-lg text-center">Fundada em 2020, nossa empresa nasceu da união de três amigos apaixonados por tecnologia. Com o objetivo de criar soluções inovadoras, transformamos desafios em oportunidades, sempre priorizando a qualidade e a satisfação dos nossos parceiros.</p>
+    </section>
+
+    <!-- Banner Promocional -->
+    <section class="mb-12 bg-blue-600 p-8 rounded-lg shadow-lg text-center animate-bounce fade-in">
+      <h2 class="text-2xl font-bold text-gray-100">Promoção Especial!</h2>
+      <p class="text-lg text-gray-300 mb-4">Transforme seu negócio com um site profissional. Aproveite agora e ganhe 20% de desconto!</p>
+      <a href="contato.html" class="bg-blue-800 hover:bg-blue-900 text-white px-6 py-3 rounded-lg font-semibold">Entre em Contato</a>
+    </section>
+
+  </main>
+
+  <footer class="bg-gradient-to-r from-blue-800 to-blue-600 p-6 mt-12">
+    <div class="container mx-auto text-center fade-in">
+      <p class="text-gray-300">© 2025 - Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
