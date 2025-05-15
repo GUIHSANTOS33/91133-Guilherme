@@ -1,0 +1,156 @@
+/* Estilo global */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e6ecf0; /* tom azul acinzentado claro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Animação para o fade-in da página */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Container do formulário */
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    animation: slideIn 0.8s ease-in-out;
+}
+
+/* Animação para o slide-in do container */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Título do formulário */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    animation: fadeIn 1s ease-in;
+}
+
+/* Estilo do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo dos labels */
+label {
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #444;
+}
+
+/* Estilo dos campos de input */
+input {
+    margin-bottom: 18px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Efeito no input ao focar */
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    outline: none;
+}
+
+/* Estilo do botão */
+button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+/* Efeito ao passar o mouse no botão */
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-1px);
+}
+
+/* Efeito ao pressionar o botão */
+button:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.2);
+}
+
+/* Estilo da mensagem de erro ou sucesso */
+#mensagem {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+/* Estilo da lista de nomes cadastrados */
+ul.lista-cadastrados {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo de cada item da lista */
+ul.lista-cadastrados li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Estilo para o botão "X" de exclusão */
+ul.lista-cadastrados li button {
+    background: none;
+    border: none;
+    color: #e74c3c; /* Cor do "X" vermelho */
+    font-size: 12px; /* Tamanho reduzido do "X" */
+    cursor: pointer;
+    transition: color 0.3s;
+    padding: 0;
+    margin: 0;
+}
+
+/* Efeito de hover no botão "X" */
+ul.lista-cadastrados li button:hover {
+    color: #c0392b; /* Cor mais escura do "X" ao passar o mouse */
+}
+
+/* Efeito de foco (opcional) para o botão "X" */
+ul.lista-cadastrados li button:focus {
+    outline: none;
+    color: #c0392b;
+}

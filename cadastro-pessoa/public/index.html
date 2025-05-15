@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pessoa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro</h1>
+        <form id="cadastroForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            
+            <button type="submit">Cadastrar</button>
+            <p id="mensagem"></p>
+        </form>
+
+        <div class="lista-cadastrados">
+            <h2>Lista de Cadastrados</h2>
+            <ul id="listaNomes"></ul>
+        </div>
+    </div>
+
+    <script>
+        const form = document.getElementById('cadastroForm');
+        const mensagem = document.getElementById('mensagem');
+        const listaNomes = document.getElementById('listaNomes');
+
+        const nomesCadastrados = [];
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            const nome = form.nome.value.trim();
+
+            if (!nome) {
+                mensagem.textContent = 'Por favor, preencha o campo nome.';
+                mensagem.style.color = 'red';
+                return;
+            }
+
+            nomesCadastrados.push(nome);
+            atualizarLista();
+            mensagem.textContent = 'Cadastro realizado com sucesso!';
+            mensagem.style.color = 'green';
+            form.reset();
+        });
+
+        function atualizarLista() {
+            listaNomes.innerHTML = '';
+            nomesCadastrados.forEach((nome, index) => {
+                const li = document.createElement('li');
+                li.textContent = nome;
+
+                const btnRemover = document.createElement('button');
+                btnRemover.textContent = '×';
+                btnRemover.className = 'btn-remover';
+                btnRemover.onclick = () => {
+                    nomesCadastrados.splice(index, 1);
+                    atualizarLista();
+                };
+
+                li.appendChild(btnRemover);
+                listaNomes.appendChild(li);
+            });
+        }
+    </script>
+    
+</body>
+</html>
